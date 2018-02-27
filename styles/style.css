@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border-color: 1px solid dark grey;
 }
 /*----- Layout, padding & margin -----*/
 span{
@@ -16,27 +15,27 @@ span{
   background-position: center;
   color: #f7f7f7;
 }
-.pencil{
+.feature-quote{
   background-image: url(../Images/joanna-kosinska-129039.jpg);
   min-height: 50vh;
   background-size: cover;
   background-position: top;
   text-align: center;
 }
-.pencil span{
+.feature-quote span{
   color:#ffffff;
 }
 .stretch{
   width: 100%;
   height:auto;
 }
-.dog{
+.feature-photo{
   background-image: url(../Images/charles-deluvio-351207.jpg);
   min-height: 60vh;
   background-size: cover;
   background-position: 54% 35%;
 }
-.lamp{
+.feature-content{
   background-image: url(../Images/rhema-kallianpur-275251.jpg);
   min-height: 60vh;
   background-size: cover;
