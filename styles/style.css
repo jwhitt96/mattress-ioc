@@ -3,8 +3,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border-color: 1px solid dark grey;
 }
-
 /*----- Layout, padding & margin -----*/
 span{
   color: #efde1c;
@@ -15,10 +15,6 @@ span{
   background-size: cover;
   background-position: center;
   color: #f7f7f7;
-}
-
-* {
-  border:1px solid darkgrey;
 }
 .pencil{
   background-image: url(../Images/joanna-kosinska-129039.jpg);
@@ -34,14 +30,12 @@ span{
   width: 100%;
   height:auto;
 }
-
 .dog{
   background-image: url(../Images/charles-deluvio-351207.jpg);
   min-height: 60vh;
   background-size: cover;
   background-position: 54% 35%;
 }
-
 .lamp{
   background-image: url(../Images/rhema-kallianpur-275251.jpg);
   min-height: 60vh;
@@ -49,30 +43,60 @@ span{
   background-position: 50% 0%;
 }
 /*----- Typography -----*/
-p {
+body {
   font-family: 'Playfair Display', serif;
   font-size:22px;
   text-align: justify;
 }
 h1{
-  font-size:60px;
+  font-size:2.7rem;
   text-align: center;
   font-family: 'Noto Serif', serif;
 }
 h2{
   font-family: 'Noto Serif', serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 1.8rem;
 }
 footer{
   background-color: #4d5563;
   color: #ffffff;
 }
+
 footer p{
-  padding:30px;
+  padding:1.36rem;
+}
+footer h2{
+  text-align: left;
+  padding-left:1.36rem;
+  padding-bottom:0rem;
+  margin-bottom: 0rem;
 }
 
-
+blockquote{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #6d6d6d;
+}
+.quote-section{
+  height: 40vh;
+}
+.right{
+  text-align: right;
+}
+.quote {
+  color:#6d6d6d;
+  font-size: 2rem;
+  margin-top: -52px;
+}
+.quote-tag{
+  color:#6d6d6d;
+  text-align: right;
+}
+textarea{
+  width:100%;
+}
 
 
 
