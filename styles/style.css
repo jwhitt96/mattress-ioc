@@ -8,6 +8,7 @@
 span{
   color: #efde1c;
 }
+/*--- Banner ----*/
 .head{
   background-image: url(../Images/gilles-lambert-249996.jpg);
   min-height: 100vh;
@@ -15,12 +16,18 @@ span{
   background-position: center;
   color: #f7f7f7;
 }
+.head p{
+  font-size:3rem;
+  text-align: center;
+}
+/*---- Padded ----*/
 .feature-quote{
   background-image: url(../Images/joanna-kosinska-129039.jpg);
   min-height: 50vh;
   background-size: cover;
   background-position: top;
   text-align: center;
+  background-color: #efb600;
 }
 .feature-quote span{
   color:#ffffff;
@@ -56,6 +63,8 @@ h2{
   text-align: center;
   font-size: 2.5rem;
 }
+/*---- footer ----*/
+
 footer{
   background-color: #4d5563;
   color: #ffffff;
@@ -74,6 +83,7 @@ footer h2{
   font-family: 'Changa One', cursive;
   font-size:4rem;
 }
+/*---- Quote ----*/
 
 blockquote{
   font-family: 'Playfair Display', serif;
@@ -97,10 +107,12 @@ blockquote{
   text-align: right;
   margin-right:25%
 }
+
+/*---- form ----*/
 textarea,input{
   width:70%;
   margin: 0.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   border-radius: 3px;
   border:none;
   padding:0.5rem;
@@ -111,6 +123,8 @@ input[type=submit]{
   border-radius:3px;
   border:none;
 }
+
+/*--- Responsive Web -----*/
 @media only screen and (max-width: 768px){
   .tabletflip{
     flex-direction: column-reverse;
@@ -118,23 +132,8 @@ input[type=submit]{
   .tabletcentre{
     text-align: center;
   }
+  .feature-quote{
+    background-image: hide;
+  }
 
-}
-
-
-
-
-
-/*----- Universal Styles -----*/
-
-
-
-
-
-
-
-/* header */
-.head p{
-  font-size:3rem;
-  text-align: center;
 }
