@@ -30,14 +30,47 @@ span{
 .pencil span{
   color:#ffffff;
 }
-/*----- Typography -----*/
-h1{
-  font-size: 60px;
-  text-align: center;
+.stretch{
+  width: 100%;
+  height:auto;
 }
 
+.dog{
+  background-image: url(../Images/charles-deluvio-351207.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  background-position: 54% 35%;
+}
 
-
+.lamp{
+  background-image: url(../Images/rhema-kallianpur-275251.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+/*----- Typography -----*/
+p {
+  font-family: 'Playfair Display', serif;
+  font-size:22px;
+  text-align: justify;
+}
+h1{
+  font-size:60px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+h2{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-size: 40px;
+}
+footer{
+  background-color: #4d5563;
+  color: #ffffff;
+}
+footer p{
+  padding:30px;
+}
 
 
 
