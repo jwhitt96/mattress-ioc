@@ -25,9 +25,8 @@ span{
 .feature-quote span{
   color:#ffffff;
 }
-.stretch{
-  width: 100%;
-  height:auto;
+.padded{
+  padding:5% 10%;
 }
 .feature-photo{
   background-image: url(../Images/charles-deluvio-351207.jpg);
@@ -48,14 +47,14 @@ body {
   text-align: justify;
 }
 h1{
-  font-size:2.7rem;
+  font-size:6rem;
   text-align: center;
   font-family: 'Noto Serif', serif;
 }
 h2{
   font-family: 'Noto Serif', serif;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 footer{
   background-color: #4d5563;
@@ -72,16 +71,18 @@ footer h2{
   margin-bottom: 0rem;
   line-height: 1;
   margin-top: 1.5rem;
+  font-family: 'Changa One', cursive;
+  font-size:4rem;
 }
 
 blockquote{
   font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: #6d6d6d;
 }
 .quote-section{
-  height: 40vh;
+  min-height: 40vh;
 }
 .right{
   text-align: right;
@@ -94,13 +95,31 @@ blockquote{
 .quote-tag{
   color:#6d6d6d;
   text-align: right;
+  margin-right:25%
 }
 textarea,input{
   width:70%;
-  margin: 1rem;
+  margin: 0.5rem;
+  font-size: 4rem;
+  border-radius: 3px;
+  border:none;
+  padding:0.5rem;
 }
+input[type=submit]{
+  background-color:#efde1c;
+  color:#ffffff;
+  border-radius:3px;
+  border:none;
+}
+@media only screen and (max-width: 768px){
+  .tabletflip{
+    flex-direction: column-reverse;
+  }
+  .tabletcentre{
+    text-align: center;
+  }
 
-
+}
 
 
 
@@ -116,6 +135,6 @@ textarea,input{
 
 /* header */
 .head p{
-  font-size:25px;
+  font-size:3rem;
   text-align: center;
 }
